@@ -1,0 +1,25 @@
+/* Estilos para el cuerpo del documento */
+/* <!-- Eduardo Escares --> */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  
+
+  footer {
+    background-color: rgb(113, 201, 206);
+    color: rgb(0, 0, 0);
+    text-align: right; /* Cambiamos la alineación del texto a la derecha */
+    padding: 60px;
+    display: flex; /* Agregamos un display flex para alinear los elementos en el footer */
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+  }
+  
+    footer p {
+        margin: 0;
+    }
