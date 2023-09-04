@@ -9,17 +9,18 @@ body {
 
   
 
-  footer {
-    background-color: rgb(113, 201, 206);
-    color: rgb(0, 0, 0);
-    text-align: right; /* Cambiamos la alineación del texto a la derecha */
-    padding: 60px;
-    display: flex; /* Agregamos un display flex para alinear los elementos en el footer */
-    justify-content: space-between;
-    align-items: center;
-    font-size: 18px;
-  }
-  
-    footer p {
-        margin: 0;
-    }
+        /* Estilos para el footer */
+        footer {
+            background-color: rgb(113, 201, 206);
+            color: white;
+            padding: 20px;
+            display: flex; /* Usar Flexbox para colocar los elementos en paralelo */
+            justify-content: space-between; /* Distribuir los elementos en el espacio disponible */
+        }
+
+        /* Estilos para los contenedores dentro del footer */
+        footer .container {
+            flex: 1; /* Hacer que los contenedores se expandan para ocupar el espacio disponible */
+            margin: 0 10px; /* Agregar margen entre los contenedores */
+            margin-left: 210px;
+        }
