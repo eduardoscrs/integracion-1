@@ -13,7 +13,7 @@ body {
         footer {
             background-color: rgb(113, 201, 206);
             color: white;
-            padding: 20px;
+            padding: 50px;
             display: flex; /* Usar Flexbox para colocar los elementos en paralelo */
             justify-content: space-between; /* Distribuir los elementos en el espacio disponible */
         }
@@ -23,4 +23,8 @@ body {
             flex: 1; /* Hacer que los contenedores se expandan para ocupar el espacio disponible */
             margin: 0 10px; /* Agregar margen entre los contenedores */
             margin-left: 210px;
+            background-color: #CBF1F5;
+            padding: 15px 20px;
+            border-radius: 10px;
+            
         }
