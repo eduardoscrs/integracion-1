@@ -51,8 +51,8 @@ h1 {
     position: relative;
     overflow: hidden;
     border: 8px solid #A6E3E9;
-    width: 200px; /* Ancho deseado de la caja de la imagen */
-    height: 200px; /* Altura deseada de la caja de la imagen */
+    width: 300px; /* Ancho deseado de la caja de la imagen */
+    height: 300px; /* Altura deseada de la caja de la imagen */
 }
 
 /* Estilo de la imagen dentro de la caja */
@@ -71,7 +71,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual tamaño */
     grid-template-rows: repeat(2, 1fr); /* Dos filas de igual tamaño */
-    gap: 5px; /* Espacio entre las imágenes */
+    gap: 20px; /* Espacio entre las imágenes */
     justify-content: center; /* Alinea las imágenes a la derecha */
 }
 
