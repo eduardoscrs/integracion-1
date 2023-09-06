@@ -50,7 +50,7 @@ h1 {
     text-align: center;
     position: relative;
     overflow: hidden;
-    border: 8px solid #A6E3E9;
+    border: 8px solid #E3FDFD;
     width: 300px; /* Ancho deseado de la caja de la imagen */
     height: 300px; /* Altura deseada de la caja de la imagen */
 }
