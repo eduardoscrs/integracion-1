@@ -51,23 +51,30 @@ header {
 /* Estilos para la barra de búsqueda */
 .search-bar {
     display: flex;
-    justify-content: flex-end; /* Alinea los elementos a la derecha */
     align-items: center; /* Centra verticalmente los elementos */
+    justify-content: flex-end; /* Alinea los elementos a la derecha */
     margin-top: 20px; /* Ajusta el espaciado superior según sea necesario */
 }
 
-/* Estilos para el campo de búsqueda y el botón */
+/* Estilo para el campo de búsqueda */
 #search-input {
-    padding: 5px; /* Espaciado interno para el campo de búsqueda */
-    margin-right: 10px; /* Espacio entre el campo de búsqueda y el botón */
+    padding: 4px; /* Espaciado interno para el campo de búsqueda */
 }
 
+/* Estilo para el botón de búsqueda */
 #search-button {
     background-color: #007bff; /* Color de fondo del botón (cambia según tu diseño) */
     color: #fff; /* Color de texto del botón */
     border: none;
     padding: 5px 10px;
     cursor: pointer;
+    margin-left: 10px; /* Añade un margen a la izquierda para separar el botón del enlace del carrito */
+    margin-right:10px ;
+}
+
+/* Estilos para el enlace del carrito */
+.cart-link {
+    text-decoration: none;
 }
 
 .contenedor1 {
