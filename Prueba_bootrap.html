@@ -1,60 +1,79 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <title>Footer con Bootstrap</title>
-    <style>
-        /* Estilos personalizados para el footer */
-        .custom-footer {
-            background-color: rgb(113, 201, 206);
-            color: rgb(0, 0, 0);
-            padding: 50px;
-        }
-
-        /* Estilos personalizados para los contenedores del footer */
-        .custom-container {
-            background-color: #CBF1F5; /* Color de fondo deseado */
-            padding: 15px 20px;
-            border-radius: 10px;
-            margin: 10px; /* Agrega margen entre los contenedores del footer */
-        }
-    </style>
+    <script src="scrip_pruebas.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css"> <!-- Agrega el archivo CSS de Bootstrap -->
+    <link rel="stylesheet" href="css_pruebas.css">
+    <title>Tienda</title>
 </head>
 <body>
-    <div class="container">
-        <p>Contenido de la página</p>
-        <p>Contenido de la página</p>
-        <p>Contenido de la página</p>
-        <p>Contenido de la página</p>
-        <p>Contenido de la página</p>
-        <p>Contenido de la página</p>
-        <p>Contenido de la página</p>
-        <p>Contenido de la página</p>
-        <p>Contenido de la página</p>
-        <p>Contenido de la página</p>
-    </div>
+    <header class="bg-primary text-white">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="logo">
+                    <img src="tu_logo.png" alt="Logo de la Página">
+                </div>
+                <h1>Tienda</h1>
+                <div class="login-register">
+                    <a href="#">Iniciar Sesión</a>
+                    <a href="#">Registrarse</a>
+                </div>
+            </div>
+        </div>
+    </header>
 
-    <footer class="custom-footer">
+    <main>
+        <div class="container mt-4">
+            <div class="search-bar d-flex justify-content-end align-items-center">
+                <input type="text" id="search-input" class="form-control" placeholder="Buscar productos...">
+                <button id="search-button" class="btn btn-primary ml-2">Buscar</button>
+                <a href="AQUI_DEBE_IR_LA REF_AL_CARRITO" class="cart-link">
+                    <img src="/iconos/carrito.png" width="30" height="30" alt="Carrito de Compra">
+                </a>
+            </div>
+        </div>
+
+        <div class="container mt-4">
+            <div class="row">
+                <!-- Contenedores individuales de productos -->
+                <div class="col-md-4">
+                    <div class="product-image-container text-center">
+                        <img src="collar.jpg" alt="Producto 1" class="img-fluid">
+                        <h2>Nombre Producto</h2>
+                        <p>Aquí va la descripción</p>
+                        <button class="btn btn-primary">Añadir al carrito</button>
+                    </div>
+                </div>
+                <!-- Repite este bloque para cada producto -->
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-primary text-white mt-4">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="custom-container">
-                        <p>Contenedor 1 en el footer</p>
-                    </div>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="https://cdn.pixabay.com/photo/2021/12/10/16/37/facebook-6860914_1280.png" width="30" height="30" alt="Facebook">
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img src="https://cdn.pixabay.com/photo/2021/06/15/12/17/instagram-6338401_1280.png" width="30" height="30" alt="Instagram">
+                    </a>
                 </div>
                 <div class="col-md-4">
-                    <div class="custom-container">
-                        <p>Contenedor 2 en el footer</p>
-                    </div>
+                    <a href="QuienesSomos.html">Quienes Somos</a>
+                    <a href="#">Contacto</a>
+                    <a href="#">Políticas de Privacidad</a>
+                    <a href="#">Términos y Condiciones</a>
                 </div>
             </div>
         </div>
     </footer>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Agrega el archivo JavaScript de Bootstrap y jQuery al final del cuerpo del documento -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
