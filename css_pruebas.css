@@ -120,10 +120,12 @@ header {
         footer {
             background-color: rgb(113, 201, 206);
             color: white;
-            padding: 50px;
-            display: flex; /* Usar Flexbox para colocar los elementos en paralelo */
-            justify-content: space-between; /* Distribuir los elementos en el espacio disponible */
+            padding: 10px 0; /* Reducir el padding verticalmente */
+            display: flex;
+            justify-content: center; /* Centra horizontalmente el contenido del footer */
         }
+
+        
 
         /* Estilos para los contenedores dentro del footer */
         footer .container {
