@@ -54,14 +54,16 @@
     box-shadow: 1px 1px 5px rgba(0 0 0 / .5);
 }
 .menu-nav {
-    display: none;
-}
-
-.menu-nav.show-menu {
-    display: block;
-}.menu-nav {
-    display: flex;
-    flex-direction: column; /*los deja en columnas */
-    align-items: flex-start; /*quedan a la izquierda de la columna */
-}
-
+    display: none; /* Ocultar el menú por defecto */
+  }
+  
+  .menu-nav.show-menu {
+    display: flex; 
+    flex-direction: column;
+    background-color: #ffffff;
+    position: absolute;
+    top: 100px; /* Ajusta la posición
+    right: 200; /* Ajusta la posición
+    padding: 10px;
+    border: 1px solid #cccccc;
+  }
