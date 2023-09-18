@@ -63,3 +63,15 @@ img{
     display: flex;
     align-items: center;
 }
+.menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu button {
+    
+   
+  background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
