@@ -3,8 +3,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    display: grid;
+    flex-direction: column; /* Alinea los elementos verticalmente */
     background-color: #A6E3E9;
+    min-height: 100vh; /* Establece el alto mínimo del documento */
+    grid-template-rows: auto 1fr auto; /* Establece el tamaño de las filas */   
+
 }
+
 
 header {
     background-color: #71C9CE;
@@ -120,9 +126,10 @@ header {
         footer {
             background-color: rgb(113, 201, 206);
             color: white;
-            padding: 10px 0; /* Reducir el padding verticalmente */
+            /* padding: 10px 0; Reducir el padding verticalmente */
             display: flex;
             justify-content: center; /* Centra horizontalmente el contenido del footer */
+            margin-top: auto; /* Ajusta el margen superior automáticamente */
         }
 
         
