@@ -139,7 +139,7 @@ header {
             flex: 1; /* Hacer que los contenedores se expandan para ocupar el espacio disponible */
             margin: 0 10px; /* Agregar margen entre los contenedores */
             margin-left: 20px;
-            background-color: #CBF1F5;
+            background-color:rgb(113, 201, 206);
             padding: 15px 20px;
             border-radius: 10px;
             color: #000;
