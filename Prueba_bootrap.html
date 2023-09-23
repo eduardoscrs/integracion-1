@@ -21,6 +21,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css_pruebas.css" />
+    <link rel="stylesheet" href="CSS/navegacion.css">
+    <link rel="stylesheet" href="CSS/main.css">
   </head>
   
 <body class="min-vh-100">
@@ -42,32 +44,71 @@
     </header>
 
     <main>
-        
-        <div class="container mt-4">
-            <div class="search-bar d-flex justify-content-end align-items-center">
-                <input type="text" id="search-input" class="form-control" placeholder="Buscar productos...">
-                <button id="search-button" class="btn btn-primary ml-2">Buscar</button>
-                <a href="AQUI_DEBE_IR_LA REF_AL_CARRITO" class="cart-link">
-                    <img src="/iconos/carrito.png" width="30" height="30" alt="Carrito de Compra">
-                </a>
-            </div>
-        </div>
+      <section class="navegacion">
+          <div class="menu">
+              <button>Menu</button>
+          </div>
+          
+          <div class="search">
+              <div class="barra-search">
+                  <input class="barra" type="text" placeholder="Buscar productos">
+                  <img class="search-icon" src="icons/search.png" alt="logo de busquedad">
+              </div>
+              <figure>
+                  <img src="icons/carrito.png" alt="" class="carrito">
+              </figure>
+          </div>
+      </section>
 
-        <div class="container mt-4">
-            <div class="row">
-                <!-- Contenedores individuales de productos -->
-                <div class="col-md-4">
-                    <div class="product-image-container text-center">
-                        <img src="collar.jpg" alt="Producto 1" class="img-fluid">
-                        <h2>Nombre Producto</h2>
-                        <p>Aquí va la descripción</p>
-                        <button class="btn btn-primary">Añadir al carrito</button>
-                    </div>
-                </div>
-                <!-- Repite este bloque para cada producto -->
-            </div>
-        </div>
-    </main>
+      <section class="main">
+          <aside class="aside-container">
+              <nav class="menu-nav">
+                  <a href="#">Home</a>
+                  <a href="#">Categorias</a>
+                  <a href="#">Servicios</a>
+                  <a href="#">Sobre Nosotros</a>
+              </nav>
+          </aside>
+
+          <section class="productos">
+              <div class="contenido">
+                  <h3>Subtitulo</h3>
+                  <img src="images/anillo1.jpg" alt="">
+                  <button>Comprar</button>
+              </div>
+
+              <div class="contenido">
+                  <h3>Subtitulo</h3>
+                  <img src="images/aro1.jpg" alt="">
+                  <button>Comprar</button>
+              </div>
+
+              <div class="contenido">
+                  <h3>Subtitulo</h3>
+                  <img src="images/collar1.jpg" alt="">
+                  <button>Comprar</button>
+              </div>
+
+              <div class="contenido">
+                  <h3>Subtitulo</h3>
+                  <img src="images/collar2.jpg" alt="">
+                  <button>Comprar</button>
+              </div>
+
+              <div class="contenido">
+                  <h3>Subtitulo</h3>
+                  <img src="images/collar3.jpg" alt="">
+                  <button>Comprar</button>
+              </div>
+
+              <div class="contenido">
+                  <h3>Subtitulo</h3>
+                  <img src="images/collar4.jpg" alt="">
+                  <button>Comprar</button>
+              </div>
+          </section>
+      </section>
+  </main>
     <!-- FOOTER -->
     <footer class="p-3">
         <div class="container text-center">
