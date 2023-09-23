@@ -8,7 +8,7 @@
 
     --link-color: rgb(17, 106, 123);
     --link-alpha-color: rgba(17, 106, 123, 0.75);
-    
+
     --bg-color: rgb(203, 241, 245);
     --bg-alpha-color: rgba(203, 241, 245, 0.75);
 }
@@ -19,12 +19,28 @@ body {
     background: var(--bg-color);
 }
 
-.bg-prod-carrito {
+.prod-carrito {
+    height: 20vh;
     background: var(--first-color);
 }
+
+.pago-carrito {
+    background: var(--second-color);
+}
+
+.precio-prod {
+    align-self: flex-end;
+}
+
 /* ************** Modificaciones Bootstrap ************** */
 .border {
     border-color: black !important;
+}
+
+.row {
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
 }
 
 /* // X-Small devices (portrait phones, less than 576px)
@@ -43,5 +59,4 @@ body {
 @media (min-width: 1200px) {}
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
-}
+@media (min-width: 1400px) {}
