@@ -1,0 +1,83 @@
+/* Reset de estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #A6E3E9;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.login-register {
+    display: flex;
+    gap: 20px;
+}
+
+.login-register a {
+    text-decoration: none;
+    color: #333;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.contenedor1 {
+    flex: auto;
+    margin: 10px;
+    padding: 10px;
+}
+
+.product-image-container {
+    background-color: #E3FDFD;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border: 8px solid #E3FDFD;
+    width: 300px; /* Ancho deseado de la caja de la imagen */
+    height: 300px; /* Altura deseada de la caja de la imagen */
+}
+
+/* Estilo de la imagen dentro de la caja */
+.product-image-container img {
+    width: 60%; /* La imagen ocupa todo el ancho de su contenedor */
+    height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+    transition: transform 0.3s; /* Transición para el efecto de zoom */
+}
+
+/* Efecto de zoom al pasar el cursor sobre la imagen */
+.product-image-container:hover img {
+    transform: scale(1.1); /* Ajusta el valor para el zoom deseado */
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual tamaño */
+    grid-template-rows: repeat(2, 1fr); /* Dos filas de igual tamaño */
+    gap: 20px; /* Espacio entre las imágenes */
+    justify-content: center; /* Alinea las imágenes a la derecha */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
