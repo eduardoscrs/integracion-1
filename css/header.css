@@ -1,0 +1,27 @@
+header {
+  background-color: #71C9CE;
+  color: #fff;
+  padding: 20px;
+  display: flex; /* Usa flexbox para alinear los elementos horizontalmente */
+  justify-content: space-between; /* Espaciado uniforme entre elementos */
+  align-items: center; /* Alinea verticalmente al centro */
+}
+
+.logo img {
+  max-width: 60px; /* Establece el ancho máximo del logotipo */
+  margin-right: 0px; /* Añade un pequeño margen entre el logotipo y el título */
+}
+
+.titulo {
+  margin: 0; /* Elimina el margen predeterminado del título */
+}
+
+.enlace {
+  margin-left: 20px; /* Añade un espacio entre los enlaces */
+  color: #fff;
+  text-decoration: none;
+}
+
+.enlace:hover {
+  text-decoration: underline;
+}
