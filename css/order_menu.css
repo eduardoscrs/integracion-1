@@ -82,12 +82,12 @@ img{
     align-items: center;
   }
   
-  .menu button {
-    
-   
-  background-color: #A6E3E9;
-    border: none;
-    cursor: pointer;
+  .menu-nav button {
+    margin: 10px; /* Espaciado entre los botones */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    background-color: #A6E3E9; /* Color de fondo personalizado */
+    color: white; /* Texto en color blanco */
+    border-radius: 5px; /* Bordes redondeados */
   }
   .main{
     display: flex;
