@@ -1,3 +1,17 @@
+:root {
+    --first-color: rgb(113, 201, 206);
+    --first-alpha-color: rgba(113, 201, 206, 0.75);
+
+    --second-color: rgb(166, 227, 233);
+    --second-alpha-color: rgba(166, 227, 233, 0.75);
+
+    --link-color: rgb(17, 106, 123);
+    --link-alpha-color: rgba(17, 106, 123, 0.75);
+
+    --bg-color: rgb(203, 241, 245);
+    --bg-alpha-color: rgba(203, 241, 245, 0.75);
+}
+
 .main{
     display: flex;
     margin: 20px;
@@ -56,3 +70,32 @@
 .menu-nav {
     display: none; /* Ocultar el menú por defecto */
   }
+  
+  .menu-nav.show-menu {
+    display: flex; /* Mostrar el menú cuando se aplica la clase "show-menu" */
+    flex-direction: column;
+    background-color: #71C9CE;
+    position: absolute;
+    top: 120px; /* Ajusta la posición según sea necesario */
+    right: 1200px; /* Ajusta la posición según sea necesario */
+    padding: 5px;
+    border: 1px solid #D9D9D9;
+  }
+.menu-nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px; /* Tamaño de fuente */
+  margin: 5px 0; /* Reduzca el margen vertical para acercar los botones */
+  padding: 10px 20px; /* Espaciado interno para los botones */
+  border-radius: 5px; /* Bordes redondeados */
+  background-color: var(--first-color); /* Color de fondo personalizado */
+  color: white; /* Texto en color blanco */
+    
+   
+transition: background-color 0.3s, transform 0.3s; /* Transiciones suaves */
+}
+
+.menu-nav a:hover {
+  background-color: var(--second-color); /* Cambia el color de fondo al pasar el mouse */
+  transform: translateY(-3px); /* Levanta ligeramente el botón */
+}  

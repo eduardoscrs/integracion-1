@@ -1,7 +1,22 @@
+:root {
+  --first-color: rgb(113, 201, 206);
+  --first-alpha-color: rgba(113, 201, 206, 0.75);
+
+  --second-color: rgb(166, 227, 233);
+  --second-alpha-color: rgba(166, 227, 233, 0.75);
+
+  --link-color: rgb(17, 106, 123);
+  --link-alpha-color: rgba(17, 106, 123, 0.75);
+
+  --bg-color: rgb(203, 241, 245);
+  --bg-alpha-color: rgba(203, 241, 245, 0.75);
+}
+
 header {
-  background-color: #71C9CE;
+  background-color: var(--first-color);
   color: #fff;
-  padding: 20px;
+  min-height: 10vh;
+  /* padding: 20px; */
   display: flex; /* Usa flexbox para alinear los elementos horizontalmente */
   justify-content: space-between; /* Espaciado uniforme entre elementos */
   align-items: center; /* Alinea verticalmente al centro */
